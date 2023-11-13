@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Inayath Profile</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        body {
+            background: #eee;
+        }
+
+        .card {
+            border: none;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .card:before {
+
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background-color: #E1BEE7;
+            transform: scaleY(1);
+            transition: all 0.5s;
+            transform-origin: bottom
+        }
+
+        .card:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background-color: #8E24AA;
+            transform: scaleY(0);
+            transition: all 0.5s;
+            transform-origin: bottom
+        }
+
+        .card:hover::after {
+            transform: scaleY(1);
+        }
+
+
+        .fonts {
+            font-size: 11px;
+        }
+
+        .social-list {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .social-list li {
+            padding: 10px;
+            color: #8E24AA;
+            font-size: 19px;
+        }
+
+
+        .buttons button:nth-child(1) {
+            border: 1px solid #8E24AA !important;
+            color: #8E24AA;
+            height: 40px;
+        }
+
+        .buttons button:nth-child(1):hover {
+            border: 1px solid #8E24AA !important;
+            color: #fff;
+            height: 40px;
+            background-color: #8E24AA;
+        }
+
+        .buttons button:nth-child(2) {
+            border: 1px solid #8E24AA !important;
+            background-color: #8E24AA;
+            color: #fff;
+            height: 40px;
+        }
+
+        .link:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body className='snippet-body'>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-7">
+                <div class="card p-3 py-4">
+                    <div class="text-center">
+                        <img src="https://i.ibb.co/jfC8vmd/Whats-App-Image-2023-11-12-at-3-08-25-PM.jpg" width="100"
+                            class="rounded-circle">
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="mt-2 mb-0">Mohammed Inayath</h5>
+                        <span>BCA 3rd Year</span>
+
+                        <div class="px-4 mt-1 d-flex align-items-center">
+                            <p class="fonts">
+                                I am currently pursuing a Bachelor of Computer Applications (BCA) degree. BCA is a
+                                three-year undergraduate program that focuses on various aspects of computer science and
+                                applications. Throughout this course, I am gaining a strong foundation in computer
+                                programming, software development, database management, and other related subjects.
+                            </p>
+                        </div>
+                        <ul class="social-list">
+                            <li>
+                                <a href="https://twitter.com/MdInaya63711262?t=uHQj1J046WaJJ6iq0Z3DVA&s=09">
+                                    <i class="fa-brands fa-x-twitter link">
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/_md_inayath__?igshid=MWthNWoybTF5bGg0cA==">
+                                    <i class="fa fa-instagram link">
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="mailto:inayathmohamed1@gmail.com">
+                                    <i class="fa fa-google link">
+
+                                    </i>
+                                </a>
+
+                            </li>
+                        </ul>
+                        <div class="buttons">
+                            <a class="btn btn-outline-primary px-4"
+                                href="sms:+917358980895?body=Hello%20there!">Message</a>
+                            <a class="btn btn-primary px-4 ms-3" href="tel:+917358980895">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript'
+        src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
+    <script src="https://kit.fontawesome.com/b624bfffa5.js" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript'></script>
+    <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
+        myLink.addEventListener('click', function (e) {
+            e.preventDefault();
+        });</script>
+
+</body>
+
+</html>
